@@ -5,6 +5,9 @@ Este é um projeto da disciplina de Programação para Web 2 e Tópicos Especiai
 Para inicializar o projeto, deve-se executar os seguintes comandos:
 
 pip install Django
+
 python manage.py makemigrations
+
 python manage.py migrate
+
 python manage.py createsuperuser
