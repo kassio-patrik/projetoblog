@@ -3,7 +3,7 @@ from django.db import models
 
 # Create your models here.
 
-# Classe para posts livres deentro do blog
+# Classe para posts livres dentro do blog
 class Post(models.Model):
     titulo = models.CharField(max_length=255)
     resumo = models.CharField(max_length=255)
