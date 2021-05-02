@@ -172,7 +172,7 @@ class Comentario(models.Model):
     nome = models.CharField(max_length=255, blank=False, null=False)
     descricao = models.TextField(max_length=300)
     autor_post = models.CharField(max_length=255, blank=False, null=False)
-    nome_post = models.ManyToManyField(Post)
+    nome_post = models.ManyToManyField(nome)
     data_post = models.DateField(blank=False, null=False, verbose_name='Data de publicação do Post')
 
     def __str__(self):
